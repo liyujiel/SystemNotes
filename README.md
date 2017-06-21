@@ -1,6 +1,6 @@
-## SystemNotes
+# SystemNotes
 
-# Difference between forking and multiThereading 
+### Difference between forking and multiThereading 
 
 A for give us a brand new process which is a copy of the cureent process with the same code segment. it looks exactly like the parent process with different process id having it's own memory. Parent process creates a separate address space for the child with same code segments but executes independently of each other. Because the system issues a new memory space and enviroment for the child process, it is knows as heavy-weight process.
 
